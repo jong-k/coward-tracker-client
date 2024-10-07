@@ -63,7 +63,7 @@ export default function Home() {
           </TableRow>
         </TableBody>
       </Table>
-      {tempElements}
+      <div>{tempElements}</div>
     </div>
   );
 }
