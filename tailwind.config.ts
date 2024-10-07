@@ -59,6 +59,11 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      zIndex: {
+        header: "10",
+        modal: "20",
+        toast: "30",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
