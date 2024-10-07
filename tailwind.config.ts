@@ -52,12 +52,17 @@ const config: Config = {
         },
       },
       height: {
-        gnb: "52px",
+        header: "52px",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      zIndex: {
+        header: "10",
+        modal: "20",
+        toast: "30",
       },
     },
   },

@@ -10,6 +10,10 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
+  const tempElements = Array.from({ length: 100 }, (_, index) => (
+    <div key={index}>Element {index + 1}</div>
+  ));
+
   return (
     <div>
       <Table className="mt-10">
@@ -59,6 +63,7 @@ export default function Home() {
           </TableRow>
         </TableBody>
       </Table>
+      <div>{tempElements}</div>
     </div>
   );
 }
