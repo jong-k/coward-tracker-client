@@ -52,7 +52,7 @@ const config: Config = {
         },
       },
       height: {
-        gnb: "52px",
+        header: "52px",
       },
       borderRadius: {
         lg: "var(--radius)",

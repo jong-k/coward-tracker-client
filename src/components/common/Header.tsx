@@ -1,9 +1,9 @@
-import GNB from "./GNB";
+import HeaderNav from "./HeaderNav";
 
 export default function Header() {
   return (
     <header>
-      <GNB />
+      <HeaderNav />
     </header>
   );
 }
