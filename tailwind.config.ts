@@ -53,6 +53,7 @@ const config: Config = {
       },
       height: {
         header: "52px",
+        footer: "56px",
       },
       borderRadius: {
         lg: "var(--radius)",
